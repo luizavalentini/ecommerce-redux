@@ -1,0 +1,41 @@
+.containerBannerCategoria{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    justify-content:center; 
+    gap: 5rem;
+    background-image: url('../../assets/banner-categoria.png');
+    
+     
+}
+.containerBannerCategoria img{
+ height: 250px;
+ width: 220px;
+ margin: 1rem;
+ border-radius: 10px;
+}
+
+.containerBannerCategoria p {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.post{
+    transition: transform .2s;
+   
+}
+
+.post:hover {
+    transform: translate(0, -2rem);
+}
+
+.imagem{
+    border-radius: 6px;
+
+}
+
+.titulo{
+    text-transform: uppercase;
+}
+

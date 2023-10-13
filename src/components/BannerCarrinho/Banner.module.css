@@ -1,0 +1,25 @@
+.banner {
+    padding: 4rem 7.5rem 3.65rem;
+    background-image: url('../../assets/background2.webp');
+    height: 255px;
+  }
+  
+  .apresentacao{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo {
+    display:  flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+
+  

@@ -1,0 +1,52 @@
+.post {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  transition: transform 0.2s;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  background-image: url('../../assets/background2.webp');
+}
+
+.capa {
+  height: 240px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.titulo {
+  margin-bottom: 10%;
+  color: white;
+  font-weight: 700;
+}
+
+.posttitulo {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  /* color: white */
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+}
+
+.posts {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.categoriaInvalida {
+  text-align: center;
+  margin: 6rem;
+}
+
+.categoria {
+  background-image: linear-gradient(white, rgb(77, 75, 75));
+  padding: 1rem;
+}
