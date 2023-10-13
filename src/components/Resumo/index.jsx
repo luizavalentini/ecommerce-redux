@@ -22,7 +22,7 @@ const Resumo = () => {
         <div className={styles.containerResumo}>
           <div className={styles.produtosTitulo}>
             <p className={styles.produtosTitulo}>
-              Confira os produtos que você comprou{" "}
+            Check the products you purchased{" "}
             </p>
             <hr className={styles.hr}></hr>
           </div>

@@ -8,7 +8,7 @@ const BannerCarrinho = () => {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>
-                    carrinho de compra
+                shopping cart
                 </h1>
                 <hr />
             </div>

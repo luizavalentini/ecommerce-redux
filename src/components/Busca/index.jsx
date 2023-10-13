@@ -22,7 +22,7 @@ const Busca = () => {
       <input
         id='buscar'
         className={styles.input}
-        placeholder='O que você procura?'
+        placeholder='What are you looking for?'
         defaultValue={busca}
         onChange={(evento)=> {
           if(!evento.target.value){

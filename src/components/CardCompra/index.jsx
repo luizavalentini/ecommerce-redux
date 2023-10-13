@@ -29,7 +29,7 @@ const CardCompra = () => {
             <div>
                 <div className={styles.CardCompra}>
                     <div className={styles.resumo}>
-                        {carrinho?.length === 0 ? <h1 className={styles.carrinhoVazio}> Seu carrinho está vazio!</h1> :
+                        {carrinho?.length === 0 ? <h1 className={styles.carrinhoVazio}> Your shopping cart is empty!</h1> :
                             carrinho.map(item => <CardColecionavel key={item.id} {...item} carrinho />)}
                     </div>
                     <div className={styles.barraResumo}>
@@ -37,7 +37,7 @@ const CardCompra = () => {
                         <p>Subtotal: <strong> R$ {total.toFixed(2)} </strong></p>
                     </div>
                     <Link to='/resumoCompra'>
-                        <button className={styles.finalizaCompra}>Finalizar Compra</button>
+                        <button className={styles.finalizaCompra}>Finalize Purchase</button>
                     </Link>
 
                 </div>

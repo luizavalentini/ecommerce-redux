@@ -27,7 +27,7 @@ const Header = () => {
     <div className={styles.containerHeader}>
     <div className={styles.nav}>
        <Link to='/'><img src={logo} alt="logo Funko"></img></Link>  
-      <Link style={linkStyle} to="/">Página Inicial</Link>
+      <Link style={linkStyle} to="/">Home page</Link>
     </div>
        <Busca onClick={() => navigate('/')}/>
        <Link to='/carrinho'>

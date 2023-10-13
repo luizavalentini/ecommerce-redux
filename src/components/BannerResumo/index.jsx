@@ -7,7 +7,7 @@ const BannerResumo = () => {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>
-                    Resumo da compra
+                Purchase summary
                 </h1>
                 <hr />
             </div>

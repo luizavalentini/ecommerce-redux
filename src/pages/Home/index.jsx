@@ -35,9 +35,9 @@ const Home = () => {
 
       {buscar ?
         <>
-          <p className={styles.posttitulo}>CATEGORIAS ENCONTRADAS</p>
+          <p className={styles.posttitulo}>CATEGORIES FOUND</p>
           {categorias?.length === 0
-            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+            ? <p className={styles.posttitulo}>No results found!</p>
             :
             <div className={styles.post}>
               {categorias.map((categoria) => {
@@ -48,9 +48,9 @@ const Home = () => {
               })}
             </div>
           }
-          <p className={styles.posttitulo}>COLECIONÁVEIS ENCONTRADOS</p>
+          <p className={styles.posttitulo}>COLLECTIBLES FOUND</p>
           {itens?.length === 0
-            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+            ? <p className={styles.posttitulo}>No results found!</p>
             :
             <div className={styles.categoria}>
               <div className={styles.posts}>
@@ -61,7 +61,7 @@ const Home = () => {
             </div>}
         </> : <>
           <Banner />
-          <p className={styles.posttitulo}>ESCOLHA A SUA CATEGORIA</p>
+          <p className={styles.posttitulo}>CHOOSE YOUR CATEGORY</p>
           <div className={styles.post}>
             {categorias.map((categoria) => {
               return <Link key={categoria.id} style={linkStyle} to={`/categoria/${categoria.id}`}>

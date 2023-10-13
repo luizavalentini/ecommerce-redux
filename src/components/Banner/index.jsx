@@ -7,10 +7,10 @@ const Banner = () => {
             <div className={styles.banner}>
                 <div className={styles.apresentacao}>
                    
-                    <h1>Colecionáveis</h1>
+                    <h1>Collectibles</h1>
 
                     <p className={styles.paragrafo}>
-                        Conheça a nossa sessão de itens colecionáveis!!!
+                    Discover our collectibles section!!!
                     </p>
                     <hr />
                     <div></div>

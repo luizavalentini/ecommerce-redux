@@ -38,9 +38,9 @@ const Categoria = () => {
             {
                 buscar ?
                     <>
-                        <p className={styles.posttitulo}>CATEGORIAS ENCONTRADAS</p>
+                        <p className={styles.posttitulo}>CATEGORIES FOUND</p>
                         {categorias?.length === 0
-                            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+                            ? <p className={styles.posttitulo}>No results found!</p>
                             :
                             <div className={styles.post}>
                                 {categorias.map((categoria) => {
@@ -51,9 +51,9 @@ const Categoria = () => {
                                 })}
                             </div>
                         }
-                        <p className={styles.posttitulo}>COLECIONÁVEIS ENCONTRADOS</p>
+                        <p className={styles.posttitulo}>COLLECTIBLES FOUND</p>
                         {itens?.length === 0
-                            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+                            ? <p className={styles.posttitulo}>No results found!</p>
                             :
                             <div className={styles.categoria}>
                                 <div className={styles.posts}>
@@ -64,7 +64,7 @@ const Categoria = () => {
                             </div>}
                     </>
                     : categoria === undefined ?
-                        <h1 className={styles.categoriaInvalida}>Categoria não encontrada!</h1>
+                        <h1 className={styles.categoriaInvalida}>Category not found!</h1>
                         :
                         <>
                             <BannerCategoria {...categoria} />

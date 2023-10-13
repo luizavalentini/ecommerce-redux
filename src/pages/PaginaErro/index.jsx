@@ -14,8 +14,8 @@ const PaginaErro = () => {
   return (
     <div className={styles.containerErro}>
         <TbError404 size={'8rem'}/>
-        <p>Ops... Essa página não foi encontrada</p>
-        <Link to='./' style={linkStyle} >Voltar para Home</Link>
+        <p>Oops... This page was not found</p>
+        <Link to='./' style={linkStyle} >Return to Home</Link>
       
     </div>
   );

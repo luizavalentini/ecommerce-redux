@@ -18,7 +18,7 @@ const Footer = () => {
         <Link to={"/"}><img className={styles.footerImg} src={logo} alt=""></img></Link>
       </div>
       <div className={styles.copyright}>
-        <p>Desenvolvido por Daniela e Luiza</p>
+        <p>Developed by Daniela and Luiza</p>
       </div>
 
     </div>
