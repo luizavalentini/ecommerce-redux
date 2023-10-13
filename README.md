@@ -1,7 +1,7 @@
 # ecommerce-redux
 
 ## Description
-The Redux ecommerce application is a web project that provides a simple collectible items e-commerce.
+The Redux e-commerce application is a web project that provides a simple collectible items e-commerce.
 
 ## How to Use the Project
 
