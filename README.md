@@ -29,7 +29,6 @@ To start the project, simply type the following command in the terminal:
    npm start
     ```
 
-This will start the server and make the API available for use.
 
 ## Notes
 
