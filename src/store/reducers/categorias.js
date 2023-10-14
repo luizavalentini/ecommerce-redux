@@ -15,28 +15,28 @@ const initialState = [
         description: 'testes'
     },
     {
-        nome: "Filmes",
+        nome: "Movies",
         thumbnail: filme,
         header: filme,
         id: 'filmes',
         description: 'testes'
     },
     {
-        nome: "Super Herois",
+        nome: "Heros",
         thumbnail: herois,
         header: herois,
         id: 'super herois',
         description: 'testes'
     },
     {
-        nome: "Seriados",
+        nome: "Series",
         thumbnail: seriados,
         header: seriados,
         id: 'seriados',
         description: 'testes'
     },
     {
-        nome: "Desenho",
+        nome: "Cartoon",
         thumbnail: desenhos,
         header: desenhos,
         id: 'desenho',

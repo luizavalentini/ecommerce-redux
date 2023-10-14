@@ -24,7 +24,7 @@ import desenhoQuatro from 'assets/itens/desenho-4.png';
 
 const initialState = [{
   titulo: 'anime Yuri & Seijin ',
-  descricao: 'Yuri Seijin Naoko-san é um manga escrito e ilustrado pela autor de mangas chamado Kashmir.',
+  descricao: 'Yuri Seijin Naoko-san is a manga written and illustrated by the manga author Kashmir.',
   foto: animeUm,
   favorito: false,
   preco: 499.99,
@@ -32,15 +32,15 @@ const initialState = [{
   categoria: 'animes'
 }, {
   titulo: 'Yukio Okumura ',
-  descricao: 'Ao no Exorcist, também conhecido no ocidente como Blue Exorcist, é uma série de manga publicada desde 2009.',
+  descricao: 'Ao no Exorcist, also known in the West as Blue Exorcist, is a manga series published since 2009.',
   foto: animeDois,
   favorito: false,
   preco: 219.90,
   id: uuid(),
   categoria: 'animes'
-},  {
+}, {
   titulo: 'Dragon Ball Super',
-  descricao: 'Dragon Ball é possivelmente o anime mais conhecido de todos os tempos, uma criação de Akira Toriyama que começou com um mangá.',
+  descricao: 'Dragon Ball is possibly the most well-known anime of all time, a creation by Akira Toriyama that began as a manga.',
   foto: animeTres,
   favorito: false,
   preco: 219.90,
@@ -48,15 +48,15 @@ const initialState = [{
   categoria: 'animes'
 }, {
   titulo: 'Shoto Todo',
-  descricao: 'Em um mundo onde quase toda a população possui algum poder sobre-humano, o garoto Izuku Midoriya é um dos poucos casos de pessoas comuns.',
+  descricao: 'In a world where almost the entire population has some superhuman power, the boy Izuku Midoriya is one of the few cases of ordinary people.',
   foto: animeQuadro,
   favorito: false,
   preco: 320.90,
   id: uuid(),
   categoria: 'animes'
-},  {
+}, {
   titulo: 'Leatherface Ultimate',
-  descricao: 'Boneco Articulado Leatherface Ultimate Figure - O Massacre da Serra Elétrica - Texas Chainsaw Massacre - NECA.',
+  descricao: 'Leatherface Ultimate Figure Articulated Doll - The Texas Chainsaw Massacre - Texas Chainsaw Massacre - NECA.',
   foto: filmeUm,
   favorito: false,
   preco: 329.90,
@@ -64,7 +64,7 @@ const initialState = [{
   categoria: 'filmes'
 }, {
   titulo: 'Alien Warrior 1986',
-  descricao: 'Boneco Articulado Alien Warrior 1986 Blue Ultimate - NECA',
+  descricao: 'Alien Warrior 1986 Blue Ultimate Articulated Figure - NECA',
   foto: filmeDois,
   favorito: false,
   preco: 369.90,
@@ -72,7 +72,7 @@ const initialState = [{
   categoria: 'filmes'
 }, {
   titulo: 'Jessica Rabbit',
-  descricao: 'Jessica Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7',
+  descricao: 'Jessica Rabbit Reaction Figures Wave 1 - Who Framed Roger Rabbit - Who Framed Roger Rabbit - Super7',
   foto: filmeTres,
   favorito: false,
   preco: 290,
@@ -80,7 +80,7 @@ const initialState = [{
   categoria: 'filmes'
 }, {
   titulo: 'Roger Rabbit ',
-  descricao: 'Roger Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7.',
+  descricao: 'Roger Rabbit Reaction Figures Wave 1 - Who Framed Roger Rabbit - Who Framed Roger Rabbit - Super7.',
   foto: filmeQuadro,
   favorito: false,
   preco: 120.99,
@@ -88,7 +88,7 @@ const initialState = [{
   categoria: 'filmes'
 }, {
   titulo: 'Man-Bat DC ',
-  descricao: 'Boneco Articulado Man-Bat Megafis DC Rebirth - DC Multiverse - Mcfarlane Toys',
+  descricao: 'Man-Bat Megafis DC Rebirth Articulated Doll - DC Multiverse - Mcfarlane Toys',
   foto: heroisUm,
   favorito: false,
   preco: 599.90,
@@ -96,7 +96,7 @@ const initialState = [{
   categoria: 'super herois'
 }, {
   titulo: 'Batman Arkham City',
-  descricao: 'Boneco Articulado Batman Arkham City - DC Multiverse - Mcfarlane Toys ',
+  descricao: 'Batman Arkham City Articulated Doll - DC Multiverse - Mcfarlane Toys',
   foto: heroisDois,
   favorito: false,
   preco: 369.99,
@@ -111,16 +111,16 @@ const initialState = [{
   id: uuid(),
   categoria: 'super herois'
 }, {
-  titulo: 'Mulher-Maravilha',
-  descricao: 'Estátua Wonder Woman Mulher-Maravilha ArtFX 1/6 1984 Movie Kotobukiya',
+  titulo: 'Wonder Woman',
+  descricao: 'Wonder Woman Statue Wonder Woman ArtFX 1/6 1984 Movie Kotobukiya',
   foto: heroisQuatro,
   favorito: false,
   preco: 149.90,
   id: uuid(),
   categoria: 'super herois'
-},  {
+}, {
   titulo: 'Zombie Walker',
-  descricao: 'Shane Walsh after becoming zombie, TV Series Série 2 Walking Dead Mcfarlan',
+  descricao: 'Shane Walsh after becoming zombie, TV Series Series 2 Walking Dead Mcfarlan',
   foto: seriadoUm,
   favorito: false,
   preco: 285.56,
@@ -150,7 +150,7 @@ const initialState = [{
   preco: 44.90,
   id: uuid(),
   categoria: 'seriados'
-},  {
+}, {
   titulo: 'Tomax Paoli 6',
   descricao: 'Tomax Paoli 6 Classified Series G.I. Joe Figure Hasbro',
   foto: desenhoUm,
@@ -159,24 +159,24 @@ const initialState = [{
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Dupla Penn e Teller Simpsons ',
-  descricao: 'Dupla Penn e Teller Simpsons 25 of the Greatest Guest Stars Série 3 NECA',
+  titulo: 'Duo Penn and Teller Simpsons',
+  descricao: 'Duo Penn and Teller Simpsons 25 of the Greatest Guest Stars Series 3 NECA',
   foto: desenhoDois,
   favorito: false,
   preco: 417.33,
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Cão Bravio Mastim',
-  descricao: 'Boneco Cão Bravio Mastim completo Comandos em Ação Gi Joe Estrela',
+  titulo: 'Bravio Mastim Dog',
+  descricao: 'Wild Dog Mastiff doll complete Commands in Action Gi Joe Estrela',
   foto: desenhoTres,
   favorito: false,
   preco: 199,
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Boneco Cobra',
-  descricao: 'Boneco Cobra Contrabando de Armas Fora-da-Lei Destro completo Comandos em Ação Gi Joe Estrela',
+  titulo: 'Cobra Doll',
+  descricao: 'Cobra Doll Arms Smuggling Outlaw Complete right-handed Commandos in Action Gi Joe Estrela',
   foto: desenhoQuatro,
   favorito: false,
   preco: 782.91,
@@ -190,7 +190,7 @@ const itensSlice = createSlice({
   reducers: {
     mudarFavorito: (state, { payload }) => {
       state = state.map(item => {
-        if(item.id === payload) item.favorito = !item.favorito;
+        if (item.id === payload) item.favorito = !item.favorito;
         return item;
       })
     }

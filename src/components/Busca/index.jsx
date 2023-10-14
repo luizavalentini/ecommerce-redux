@@ -19,24 +19,38 @@ const Busca = () => {
 
   return (
     <div className={styles.busca}>
-      <input
-        id='buscar'
-        className={styles.input}
-        placeholder='What are you looking for?'
-        defaultValue={busca}
-        onChange={(evento)=> {
-          if(!evento.target.value){
-            dispatch(resetarBusca());
+    <input
+      id="buscar"
+      className={styles.input}
+      placeholder="What are you looking for?"
+      defaultValue={busca}
+      onChange={(evento) => {
+        if (!evento.target.value) {
+          dispatch(resetarBusca());
+        }
+      }}
+      onKeyDown={(event) => {
+        if (event.key === 'Enter') {
+          const buscar = document.getElementById('buscar');
+          if (buscar !== undefined && buscar.value !== "") {
+            dispatch(mudarBusca(buscar.value));
           }
-        }}
-      />
-      <BiSearchAlt2 className={styles.buscaIcone} onClick={() => {
+        }
+      }}
+    />
+    <BiSearchAlt2
+      className={styles.buscaIcone}
+      onClick={() => {
         const buscar = document.getElementById('buscar');
         if (buscar !== undefined && buscar.value !== "") {
           dispatch(mudarBusca(buscar.value));
         }
-      }} size={'1.5rem'} color={'grey'} />
-    </div>
+      }}
+      size={'1.5rem'}
+      color={'grey'}
+    />
+  </div>
+  
 
 
   );
